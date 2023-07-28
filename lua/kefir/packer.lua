@@ -25,6 +25,8 @@ return require('packer').startup(function(use)
 
     -- Treesitter
     use ({ 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} })
+
+    -- Git suuport
     use ('tpope/vim-fugitive')
 
     -- LSP support
@@ -57,5 +59,11 @@ return require('packer').startup(function(use)
         requires = "nvim-treesitter/nvim-treesitter",
         -- Uncomment next line if you want to follow only stable versions
         -- tag = "*"
+    }
+
+    -- Debugger (DAP) with UI
+    use {
+        "rcarriga/nvim-dap-ui",
+        requires = {"mfussenegger/nvim-dap"}
     }
 end)
