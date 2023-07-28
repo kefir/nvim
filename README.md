@@ -18,7 +18,7 @@ My humble nvim configuration tailored to (Embedded) C/C++ development.
 
 ## Installation 
 1. Replace everything you have in ~/.config/nvim/ with the contents of this repo.
-2. Open packer file ```sh nvim ~/.config/nvim/lua/kefir/packer.lua``` and shout it out ```:so```
+2. Open packer file ```nvim ~/.config/nvim/lua/kefir/packer.lua``` and shout it out ```:so```
 3. Run ```:PackerSync```
 4. After that close and open Neovim. Everything should be installed.
 
