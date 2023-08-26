@@ -23,6 +23,9 @@ return require('packer').startup(function(use)
         end
     })
 
+    -- Align
+    use('junegunn/vim-easy-align')
+
     -- Treesitter
     use ({ 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} })
 
