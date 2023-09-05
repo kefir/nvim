@@ -30,3 +30,7 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 -- Russian language remaps
 vim.keymap.set("n", "Ж", ":")
+
+-- Git diff select
+vim.keymap.set("n", "gj", "<cmd>diffget //2<CR>")
+vim.keymap.set("n", "gk", "<cmd>diffget //3<CR>")
