@@ -32,5 +32,5 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "Ж", ":")
 
 -- Git diff select
-vim.keymap.set("n", "gj", "<cmd>diffget //2<CR>")
-vim.keymap.set("n", "gk", "<cmd>diffget //3<CR>")
+vim.keymap.set("n", "ghj", "<cmd>diffget //2<CR>")
+vim.keymap.set("n", "ghk", "<cmd>diffget //3<CR>")
